@@ -13,6 +13,10 @@ XUtils的DB模块一直用在项目里，但http等模块后来换掉了，injec
     * 所有功能都在DbManager里，这是个接口
     * 没有个createTable方法，所有访问表的方法，都遵循无则自动创建的原则
 
+	
+引入:compile 'org.ayo.ui:ayo-db:1.0.0'
+	
+	
 贴代码：
 ```java
 

@@ -1,5 +1,7 @@
 # AyoDB
 项目里用到的DB模块，直接把XUtils的代码抠出来了
+XUtils的DB模块一直用在项目里，但http等模块后来换掉了，inject和bitmap本来就没用，
+所以直接把DB单独抠出来放到jcenter，去掉多余代码，也方便引入
 
 ------------------------
 
@@ -13,6 +15,10 @@
 
 贴代码：
 ```java
+
+//需要全局初始化：
+x.Ext.init(getActivity().getApplication());
+
 private DbManager getDB(){
     DbManager.DaoConfig dbConfig = new DbManager.DaoConfig();
     dbConfig.setAllowTransaction(true);

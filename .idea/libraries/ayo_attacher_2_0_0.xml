@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ayo-attacher-2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.ayo.attacher/ayo-attacher/2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.ayo.attacher/ayo-attacher/2.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ayo.attacher/ayo-attacher/2.0.0/71c21dff7f5fb69a6fa82d8ba7b3f3f306d9a4a1/ayo-attacher-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

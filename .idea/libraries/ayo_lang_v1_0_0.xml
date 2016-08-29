@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ayo-lang-v1.0.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.ayo/ayo-lang/v1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.ayo/ayo-lang/v1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ayo/ayo-lang/v1.0.0/3544236a574e03982ba7e83e35055eff6c1f79e8/ayo-lang-v1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

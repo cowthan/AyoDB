@@ -5,6 +5,21 @@ XUtils的DB模块一直用在项目里，但http等模块后来换掉了，injec
 
 ------------------------
 
+没整到jcenter上，暂时就用aar包吧，也挺省劲：[下载地址](https://github.com/cowthan/AyoDB/blob/master/ayo-db.aar?raw=true)  
+下载下来文件名是：ayo-db.aar，拷到libs目录里  
+然后在build.gradle里引入：
+```
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+compile(name:'ayo-db', ext:'aar')
+```
+
+
+
 * 涉及到以下知识点：
     * Table的Entity定义
         * Table注解
